@@ -1,0 +1,19 @@
+{
+  "name": "mmo",
+  "version": "1.0.0",
+  "description": "Minimal example of multiplayer game using pixi.js as a renderer on top of node.js and socket.io.",
+  "main": "app.js",
+  "scripts": {
+    "watch:html": "pug --pretty -w -o ./ src/",
+    "watch:js": "coffee -c -b -w -o ./ src/",
+    "watch-all": "run-p watch:*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^3.1.1"
+  }
+}
